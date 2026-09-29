@@ -21,7 +21,8 @@ export async function updateTodo(
     id,
     updates,
     {
-      new: true,
+    //   new: true,
+      returnDocument: "after",
       runValidators: true,
     }
   );

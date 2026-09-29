@@ -1,6 +1,7 @@
 export interface Todo {
   title: string;
   completed: boolean;
+  id: string;
 }
 
 export interface UpdateTodoInput {
